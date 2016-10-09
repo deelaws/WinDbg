@@ -1,0 +1,37 @@
+
+>> vercommand 
+
+>> wp HelloWorld!wmain
+
+>> g
+
+
+No need to set srcpath since source code is on the same machine.
+>> .srcpath+ <source path>
+
+Dump variables
+>> dv
+
+Dump registers
+>> r
+
+Quit program. This will exit the debugger and detach 
+>> qd  
+
+To list SYMBOLS in a dll or exe. (eg notepad.exe)
+>> x notepad!*open*
+
+To list all threads
+>> ~
+
+To switch to thread 0
+>> ~0s    
+
+List call stack with parameters
+>> kp
+
+Dump type information
+>> dt this
+
+Switch to frame 1 (call stack frame)
+>> .frame 1
